@@ -10,7 +10,7 @@ export default function Grid() {
 
   return (
     <div className="grid">
-      {grid.map((row, i) => row.map((square, j) => <GridSquare i={i} j={j} />))}
+      {grid.map((row, i) => row.map((square, j) => <GridSquare i={i} j={j} key={`${i}:${j}`}/>))}
     </div>
   );
 }

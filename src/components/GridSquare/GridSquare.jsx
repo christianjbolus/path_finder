@@ -1,10 +1,16 @@
-import React from 'react'
-import './GridSquare.css'
+import { useState } from 'react';
+import './GridSquare.css';
 
-export default function GridSquare({i, j}) {
+export default function GridSquare({ i, j }) {
+  const [clicked, setClicked] = useState(false);
+
+
   return (
-    <div className="grid-square" data-i={i} data-j={j}>
-      
-    </div>
-  )
+    <div
+      className={clicked ? 'grid-square red' : 'grid-square'}
+      onClick={() => setClicked(prevState => !prevState)}
+      data-i={i}
+      data-j={j}
+    ></div>
+  );
 }
