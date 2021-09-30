@@ -1,10 +1,10 @@
 .grid-square {
   height: 25px;
   width: 25px;
-  border: 1px solid #000;
+  border: 1px solid #2d0ca5;
   margin: 1px;
 }
 
 .red {
-  background-color: red
+  background-color: #6933ff
 }
