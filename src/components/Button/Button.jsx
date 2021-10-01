@@ -22,6 +22,7 @@ const btn = css`
   border: none;
   background-color: #21D4FD;
   background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
+  cursor: pointer
 `
 
 export default function Button({ text, className, onClick }) {
