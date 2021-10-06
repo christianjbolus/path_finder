@@ -7,6 +7,7 @@ const gridSquare = css`
   width: 25px;
   border: 1px solid #2d0ca5;
   margin: 1px;
+  cursor: pointer;
 `
 
 const fill = css`
