@@ -1,6 +1,0 @@
-.grid {
-  display: inline-grid;
-  grid-template-columns: repeat(25, 1fr);
-  grid-template-rows: repeat(25, 1fr);
-  margin-bottom: 40px;
-}
